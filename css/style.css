@@ -11,9 +11,67 @@ body{
 }
 
 .navbar-container{
+	top: 0;
 	background-color: #272B38;
+	position: sticky;
+	z-index: 1;
 }
 
 .about-container{
 	background-color: #01A4A5;
+}
+
+.education-container{
+	background-color: #D2D1D3;
+}
+
+.bg-redtype{
+	background-color: #FD8680;
+}
+
+.bg-redtype:hover {
+	color: black!important;
+}
+
+
+.redtype-color{
+	color: #FD8680;
+}
+
+.circle-education{
+	background-color: #FD8680;
+	height: 150px;
+	width: 150px;
+	border-radius: 50%;
+}
+
+.project-container{
+	background-color: #2DB1E1;
+}
+
+.contact-container{
+	background-color: #474C5E;
+}
+
+.inner-form{
+	background-color: #494F63;
+}
+
+.footer{
+	background-color: #2DB1E1;
+}
+
+.circle{
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	display: inline-block;
+	background-color: white;
+	font-size: 40px;
+	text-align: center;
+	color: #2DB1E1;
+}
+
+.circle:hover{	
+	background-color: #494F63;
 }
